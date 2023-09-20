@@ -1,2 +1,2 @@
 # LinkTree
- codehack.pythonanywhere.com
+http://codehack.pythonanywhere.com/
