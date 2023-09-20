@@ -1,0 +1,303 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: rgb(27, 27, 42);
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.homeimage {
+  text-align: center;
+  z-index: 12;
+  position: relative;
+  width: 70%;
+  color: whitesmoke;
+  margin: auto;
+  margin-top: 15px;
+  height: 94%;
+  background-color: rgb(46, 44, 69);
+}
+
+
+/* footer css  */
+.foot {
+
+  text-align: center;
+
+  margin-top: 30px;
+
+  overflow: hidden;
+}
+
+.icons {
+  color: rgb(22, 21, 21);
+  padding: 8px 8px;
+  height: 20px;
+}
+
+ion-icon {
+  font-size: 25px;
+
+}
+
+ion-icon:hover {
+  /* background-color:black; */
+  color: whitesmoke;
+  transform: translateY(-4px);
+
+}
+
+footer {
+  margin-top: 30px;
+  height: 100%;
+  width: 100vw;
+  position: static;
+
+
+}
+
+.main_foot {
+  background-color: black;
+  z-index: 11;
+
+  position: relative;
+  padding-top: 10px;
+}
+
+.socialtext {
+  color: white;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+
+}
+
+.elements {
+  text-align: center;
+  margin-top: 16px;
+
+
+
+}
+
+.elements>a>span>ion-icon {
+  color: white;
+  padding: 10px 10px;
+}
+
+.elements>a>span>ion-icon:hover {
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+.hostername {
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+
+}
+
+#particles-js {
+  position: fixed;
+  top: 0px;
+
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-position: 50% 50%;
+
+}
+
+.main {
+  background-color: black;
+  padding: 8px 10px;
+}
+
+.hdesc {
+  margin-top: 8px;
+}
+
+.avtar>img {
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
+
+label {
+  margin-top: 8px;
+}
+
+.namesec>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  background-color: rgb(47, 35, 58);
+}
+
+.yourrole>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.instagram>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.Twitter>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+
+.fb>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.linkin>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.git>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.hackerrank>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.gfg>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+.website>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+.codechef>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+.codepen>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+
+
+
+
+.leet>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.resume>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.portfolio>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+/* THIS HAS TO BE changed in media query*/
+
+.urdescription>textarea {
+  width: 490px;
+  height: 65px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+
+}
+
+.phone>input {
+  width: 290px;
+  height: 35px;
+  color: whitesmoke;
+  margin-top: 12px;
+  background-color: rgb(47, 35, 58);
+}
+
+.buton>input {
+  margin-top: 12px;
+}
+
+@media (min-width: 310px)and (max-width:550px) {
+  .homeimage {
+
+    width: 90%;
+    height: 90%;
+
+  }
+
+  .urdescription>textarea {
+    width: 300px;
+    height: 65px;
+    color: whitesmoke;
+    margin-top: 12px;
+    background-color: rgb(47, 35, 58);
+
+  }
+}
